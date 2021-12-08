@@ -56,15 +56,55 @@
 		87B6ACC827607FE50087BB3D /* SpotifyApp */ = {
 			isa = PBXGroup;
 			children = (
-				87B6ACC927607FE50087BB3D /* AppDelegate.swift */,
-				87B6ACCB27607FE50087BB3D /* SceneDelegate.swift */,
-				87B6ACCD27607FE50087BB3D /* ViewController.swift */,
-				87B6ACCF27607FE50087BB3D /* Main.storyboard */,
-				87B6ACD227607FE70087BB3D /* Assets.xcassets */,
-				87B6ACD427607FE70087BB3D /* LaunchScreen.storyboard */,
-				87B6ACD727607FE70087BB3D /* Info.plist */,
+				87B6ACE1276138180087BB3D /* Supports files */,
+				87B6ACE02760840E0087BB3D /* Managers */,
+				87B6ACDF276083F70087BB3D /* View */,
+				87B6ACDE276083E90087BB3D /* Models */,
+				87B6ACDD276083DD0087BB3D /* ViewModels */,
 			);
 			path = SpotifyApp;
+			sourceTree = "<group>";
+		};
+		87B6ACDD276083DD0087BB3D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				87B6ACCD27607FE50087BB3D /* ViewController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		87B6ACDE276083E90087BB3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87B6ACDF276083F70087BB3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87B6ACCF27607FE50087BB3D /* Main.storyboard */,
+				87B6ACD427607FE70087BB3D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87B6ACE02760840E0087BB3D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87B6ACE1276138180087BB3D /* Supports files */ = {
+			isa = PBXGroup;
+			children = (
+				87B6ACC927607FE50087BB3D /* AppDelegate.swift */,
+				87B6ACCB27607FE50087BB3D /* SceneDelegate.swift */,
+				87B6ACD227607FE70087BB3D /* Assets.xcassets */,
+				87B6ACD727607FE70087BB3D /* Info.plist */,
+			);
+			path = "Supports files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
